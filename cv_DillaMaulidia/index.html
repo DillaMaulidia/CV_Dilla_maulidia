@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Dilla Maulidia</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      color: white;
+    }
+
+    .hero {
+      height: 300px;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+                  url('DillaMaulidia.jpg') center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .overlay {
+      text-align: center;
+    }
+
+    .profile {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #3ec6ff;
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+    }
+
+    .tagline {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 420px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      color: #3ec6ff;
+    }
+
+    p, li {
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+      margin-top: 10px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 12px;
+      top: 0;
+      width: 3px;
+      height: 100%;
+      background: #3ec6ff;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -20px;
+      top: 5px;
+      width: 14px;
+      height: 14px;
+      background: #3ec6ff;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #3ec6ff;
+    }
+
+    .timeline-item h3 {
+      margin: 0;
+      font-size: 15px;
+      color: white;
+    }
+
+    .timeline-item p {
+      margin: 2px 0 0;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="overlay">
+      <img src="DillaMaulidia.jpg" class="profile">
+      <h1>Dilla Maulidia</h1>
+      <p class="tagline">Mahasiswa Teknologi Informasi</p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya adalah mahasiswa Teknologi Informasi di UIN Ar-Raniry yang memiliki ketertarikan 
+        dalam dunia digital, khususnya pada pengembangan web dan desain antarmuka. 
+        Saya memiliki semangat belajar tinggi, mampu beradaptasi dengan teknologi baru, 
+        serta berkomitmen untuk terus mengembangkan kemampuan agar dapat berkontribusi 
+        di bidang teknologi.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <h2>Pendidikan</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>UIN Ar-Raniry</h3>
+          <p>Teknologi Informasi</p>
+        </div>
+        <div class="timeline-item">
+          <h3>MAS Jeumala Amal</h3>
+          <p>Sekolah Menengah Atas</p>
+        </div>
+        <div class="timeline-item">
+          <h3>MTsS Jeumala Amal</h3>
+          <p>Sekolah Menengah Pertama</p>
+        </div>
+          <div class="timeline-item">
+          <h3>MIN 7 PIDIE JAYA</h3>
+          <p>Sekolah Dasar</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <h2>Skill</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>UI/UX Design (Figma)</li>
+        <li>Problem Solving</li>
+        <li>Kerja Tim</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Kontak</h2>
+      <p>📧dilla.maulidia03@gmail.com</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
